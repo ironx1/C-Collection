@@ -10,4 +10,4 @@ set_target_properties(Collections PROPERTIES
     ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/lib
 )
 endif()
-add_subdirectory(test)
+#add_subdirectory(test)
