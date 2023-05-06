@@ -1,8 +1,11 @@
 //
 // Created by akaan on 6.05.2023.
 //
-
+#ifdef _WIN32
+#include "..\include\queue.h"
+#else
 #include "../include/queue.h"
+#endif
 #include <stdlib.h>
 
 static void queue_enqueue(Queue *queue, void *data){

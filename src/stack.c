@@ -1,8 +1,11 @@
 //
 // Created by akaan on 2.05.2023.
 //
-
-#include "../include/stack.h"
+#ifdef _WIN32
+#include "..\include\stack.h"
+#else
+#include "../include/stack.h",
+#endif
 #include <stdlib.h>
 
 static void stack_push(Stack *stack ,void *data){
